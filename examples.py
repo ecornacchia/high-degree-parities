@@ -36,14 +36,13 @@ tasks = {
         'valid_size': 8192,
         'test_size': 8192,
         'target_function': lambda X: X[:, :].prod(axis=1)
-
+    },
     'parity3': {
         'dimension': 50,
         'valid_size': 8192,
         'test_size': 8192,
         'target_function': lambda X: X[:, :3].prod(axis=1)
-    } 
-        , 
+    }, 
     'leapCSQ3': {
         'dimension': 50,
         'valid_size': 8192,
